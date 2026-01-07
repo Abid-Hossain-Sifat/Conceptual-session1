@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Fira Sans; 
+    
+    
+}
+body {
+     background-color: #F1F1F3;;
+
 }
 
 
@@ -34,3 +40,94 @@
     color: #F5F5F5;
 }
 /* header section end  */
+
+/* Hero section  */
+.hero-sec {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 0px 160px;
+    
+}
+ .hero-container {
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    background-color: #C6E4D6;
+    border: none;
+    border-radius: 24px;
+}
+.hero-container .hero-content {
+    width: 67%;
+    max-width: 1280px;
+    margin: 60px 117px 117px 0px;
+}
+.hero-content p {
+    font-size: 24px;
+    font-weight: 500px;
+    color: #0E0E0E50;
+}
+.hero-content h2 {
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.hero-content .hero-btn {
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    cursor: pointer;
+}
+.hero-content .hero-btn:hover {
+    background-color: #FFFFFF;
+    color: #006A50;
+}
+.hero-container .hero-img .h-img{
+    width: 474px;
+    height: 400px;
+    margin-top: 0px auto 0px;
+}
+/* end hero section  */
+
+/* pill-cards section  */
+.pillars-sec {
+    padding: 0px 160px;
+}
+.pillars-sec .p-container .content {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.p-container .pill-cards {
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+.pill-cards .cards {
+    padding: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid gainsboro;
+    border-radius: 16px;
+
+}
+.pill-cards .cards img {
+    margin-bottom: 24px;
+}
+.pill-cards .cards h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E80;
+    margin-bottom: 12px;
+}
+.pill-cards .cards p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E70;
+}
