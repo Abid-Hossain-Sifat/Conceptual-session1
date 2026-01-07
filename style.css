@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fira Sans; 
+}
+
+
+/* header section  */
+.header-section {
+    background-color: #F5F5F5;
+    padding: 24px 160px;
+}
+.header-section .header-container {
+    display: flex;
+    justify-content: space-between;
+}
+.header-container h2 {
+    font-size: 32px;
+    color: #0E0E0E;
+}
+.header-container .header-btn .h-btn {
+    padding: 15px 30px;
+    border: 2px solid #006A50;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+    font-size: 18px;
+    font-weight: 600px;
+    color: #006A50;
+    cursor: pointer;
+}
+.header-btn .h-btn:hover {
+    background-color: #006A50;
+    color: #F5F5F5;
+}
+/* header section end  */
